@@ -1,3 +1,19 @@
+/* Estilos para dispositivos em geral */
+
+/* Estilos para PC */
+@media screen and (min-width: 768px) {
+  .pc-only {
+    display: block; /* Mostra a imagem apenas em dispositivos com largura mínima de 768px (geralmente PCs) */
+  }
+}
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 767px) {
+  .pc-only {
+    display: none; /* Esconde a imagem em dispositivos com largura máxima de 767px (geralmente dispositivos móveis) */
+  }
+}
+
+
 * {
   margin: 0;
   padding: 0;
